@@ -1,10 +1,7 @@
 # Number-Generator
-4 implementations of a number generator
+This repo contains 4 different implementations of a simple web server that serves a random number between 1 and 1,000,000. Each directory contains a markdown file giving instructions on how to get the code running a functional web server on Google Cloud.
 
-Olivia: Virtual machine + java
-
-Thanh: App engine + java
-
-Kurtis: Virtual machine + python
-
-Brady: App engine + python
+javaVM by Olivia
+javaAppEngine by Thanh
+pythonVM by Kurtis
+pythonAppEngine by Brady
