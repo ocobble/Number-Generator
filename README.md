@@ -7,6 +7,9 @@ javaAppEngine by Thanh
 
 pythonVM by Kurtis
 
-pythonAppEngine by Brady
+pythonAppEngine by Brady: http://python-rng.appspot.com/
 
-Testing code: for((i = 0; i < 1000; i += 1)); do curl -s "website URL here"; echo ""; done > test; uniq -d test;
+Testing code: for((i = 0; i < 1000; i += 1)); do curl -s "website URL here"; echo ""; done > test; uniq -d test; 
+
+When this is run in the command prompt for the given URL, it should loop 1,000 times, check what the website prints, and save it to "test"
+it then checks for any duplicate numbers in "test" using the uniq -d command. If there are no duplicates, then this code will not print anything.
