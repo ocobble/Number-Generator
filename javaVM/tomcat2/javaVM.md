@@ -9,11 +9,11 @@ Once you have created an account, you are ready to create an instance of a virtu
 
 On this page, you will configure the settings for your virtual machine. Make sure that you choose an Ubuntu machine.
 
-![Ubuntu](Ubuntu.png)
+![Ubuntu](images/Ubuntu.png)
 
 You will also want the firewall to allow http and https traffic.
 
-![Firewall](Firewall.png)
+![Firewall](images/Firewall.png)
 
 Once you have created your instance, you need to start your instance by going to the compute engine page, selecting your instance, and clicking start at the top. Once you have done this, click on the 3 dots by your instance, and click "open in browser window" to enter your instance.
 
@@ -22,17 +22,17 @@ Once you have created your instance, you need to start your instance by going to
 
 Here's a detailed tutorial on how to install Apache Tomcat on an Ubuntu machine: https://www.digitalocean.com/community/tutorials/how-to-install-apache-tomcat-8-on-ubuntu-16-04
 
-(insert image)
+![Apache](images/Tomcat.png)
 
 ## 3. Install nginx
 
 Here's a tutorial on how to install nginx and use it as a reverse proxy: https://www.keycdn.com/support/nginx-reverse-proxy
 
-(insert image)
+![nginx](images/nginx.png)
 
 At the end of this step, opening a browser window and navigating to http://{your-external-ip-address} should bring up the java tomcat splash page.
 
-(insert image)
+![splash screen](images/splash.png)
 
 ## 4. Edit index.jsp
 
@@ -44,4 +44,4 @@ This line of code will generate a random int between one and a million.
 
 Now, when you visit http://{your-external-ip-address} you should see a random number.
 
-(insert image)
+![number](images/number.png)
