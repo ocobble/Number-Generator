@@ -22,17 +22,17 @@ Once you have created your instance, you need to start your instance by going to
 
 Here's a detailed tutorial on how to install Apache Tomcat on an Ubuntu machine: https://www.digitalocean.com/community/tutorials/how-to-install-apache-tomcat-8-on-ubuntu-16-04
 
-![Apache](images/Tomcat.png)
+![tomcat](images/tomcat.png)
 
 ## 3. Install nginx
 
 Here's a tutorial on how to install nginx and use it as a reverse proxy: https://www.keycdn.com/support/nginx-reverse-proxy
 
-![nginx](images/nginx.png)
+![nginx](images/nginx.PNG)
 
 At the end of this step, opening a browser window and navigating to http://{your-external-ip-address} should bring up the java tomcat splash page.
 
-![splash screen](images/splash.png)
+![Firewall](images/Splash.PNG)
 
 ## 4. Edit index.jsp
 
@@ -44,4 +44,4 @@ This line of code will generate a random int between one and a million.
 
 Now, when you visit http://{your-external-ip-address} you should see a random number.
 
-![number](images/number.png)
+![Firewall](images/number.PNG)
