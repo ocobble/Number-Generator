@@ -9,11 +9,11 @@ Once you have created an account, you are ready to create an instance of a virtu
 
 On this page, you will configure the settings for your virtual machine. Make sure that you choose an Ubuntu machine.
 
-(insert image)
+![Ubuntu](Ubuntu.png)
 
 You will also want the firewall to allow http and https traffic.
 
-(insert image)
+![Firewall](Firewall.png)
 
 Once you have created your instance, you need to start your instance by going to the compute engine page, selecting your instance, and clicking start at the top. Once you have done this, click on the 3 dots by your instance, and click "open in browser window" to enter your instance.
 
