@@ -5,7 +5,7 @@ This repo contains 4 different implementations of a simple web server that serve
 
 javaVM by Olivia: http://34.66.114.201/
 
-javaAppEngine by Thanh
+javaAppEngine by Thanh: http://t0913-252821.appspot.com
 
 pythonVM by Kurtis
 
