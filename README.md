@@ -3,7 +3,7 @@ This repo contains 4 different implementations of a simple web server that serve
 
 ## Implementations
 
-javaVM by Olivia: http://34.66.114.201/
+javaVM by Olivia: http://34.66.114.201/ <- This sometimes gives a 404 error but just refresh the page and you'll get a number
 
 javaAppEngine by Thanh: http://t0913-252821.appspot.com
 
