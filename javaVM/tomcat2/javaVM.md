@@ -38,7 +38,7 @@ At the end of this step, opening a browser window and navigating to http://{your
 
 Now it's time to implement the number generator. Navigate to /opt/tomcat/latest/webapps/ROOT in your VM and edit the index.jsp file. This file is a .jsp file, which means it's in a language for java serverlets. Erase the contents of this file, and add the following line of code to generate a random number each time the webpage is visited.
 
-```<%=(int) Math.random() * 1000000%>```
+```<% (int) Math.floor(Math.random() * 1000000)%>```
 
 This line of code will generate a random int between one and a million.
 
